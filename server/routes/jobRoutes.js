@@ -1,7 +1,7 @@
 import express from 'express';
 import { createjob, getJobById, getJobQuotations, uploadQuotation, getDashboardStats, recentJobs, CompareQuotations, deleteJob } from '../controllers/JobController.js';
 import { verifyAuth } from '../middleware/authMiddleware.js';
-import { upload } from '../uploads/multerConfig.js';
+import { upload } from '../middleware/multerConfig.js';
 
 
 
