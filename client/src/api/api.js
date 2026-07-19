@@ -1,8 +1,8 @@
 import axios from "axios";
 
-const api = axios.create({
-    baseURL: import.meta.env.VITE_API_URL,
-    withCredentials: true
+export const api = axios.create({
+  baseURL: "https://quoteshield-ai.onrender.com/api",
+  withCredentials: true,
 });
 api.interceptors.request.use((config) =>{
     const token = localStorage.getItem("token");
