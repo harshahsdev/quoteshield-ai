@@ -13,7 +13,7 @@ const app = express();
 // middleware
 app.use(
   cors({
-    origin: "https://quoteshield-ai-eight.vercel.app",
+    origin: "https://quoteshield-ai-1gkj.vercel.app",
     credentials: true,
   })
 );
